@@ -35,7 +35,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-STATIC_PATHS = ['audio',]
+STATIC_PATHS = ['audio', 'images']
 
 ### Settings for podcast
 # Podcast
@@ -52,3 +52,4 @@ PODCAST_FEED_IMAGE = "http://hogehoge/hoge.png"
 # Plugin
 PLUGIN_PATHS = ['plugins',]
 PLUGINS = ['pelican-podcast-feed',]
+
