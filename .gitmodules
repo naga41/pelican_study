@@ -1,0 +1,3 @@
+[submodule "plugins/pelican-podcast-feed"]
+	path = plugins/pelican-podcast-feed
+	url = git@github.com:magnunleno/pelican-podcast-feed.git
