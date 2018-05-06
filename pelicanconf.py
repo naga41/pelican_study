@@ -33,3 +33,21 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+### Settings for podcast
+# Podcast
+PODCAST_FEED_PATH = 'feeds/podcasts.atom.xml'
+PODCAST_FEED_AUTHOR = AUTHOR
+PODCAST_FEED_COPYRIGHT = AUTHOR
+PODCAST_FEED_LANGUAGE = 'ja'
+PODCAST_FEED_CATEGORY = 'Sports & Recreation'
+PODCAST_FEED_EXPLICIT = 'No'
+PODCAST_FEED_SUMMARY = "Talking about FC Barcelona in Japanese"
+PODCAST_FEED_IMAGE = "http://hogehoge/hoge.png"
+
+# Blogroll
+LINKS = (('Podcast', './feeds/podcasts.atom.xml'),)
+
+# Plugin
+PLUGIN_PATHS = ['plugins',]
+PLUGINS = ['pelican-podcast-feed',]
