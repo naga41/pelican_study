@@ -35,6 +35,8 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+STATIC_PATHS = ['audio',]
+
 ### Settings for podcast
 # Podcast
 PODCAST_FEED_PATH = 'feeds/podcasts.atom.xml'
