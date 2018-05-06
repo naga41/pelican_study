@@ -20,14 +20,15 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# LINKS = (('Pelican', 'http://getpelican.com/'),
+#          ('Python.org', 'http://python.org/'),
+#          ('Jinja2', 'http://jinja.pocoo.org/'),
+#          ('You can modify those links in your config file', '#'),)
+LINKS = (('Podcast', './feeds/podcasts.atom.xml'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# SOCIAL = (('You can add links in your config file', '#'),
+#           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -45,8 +46,6 @@ PODCAST_FEED_EXPLICIT = 'No'
 PODCAST_FEED_SUMMARY = "Talking about FC Barcelona in Japanese"
 PODCAST_FEED_IMAGE = "http://hogehoge/hoge.png"
 
-# Blogroll
-LINKS = (('Podcast', './feeds/podcasts.atom.xml'),)
 
 # Plugin
 PLUGIN_PATHS = ['plugins',]
